@@ -11,7 +11,7 @@ Easy way ( 3 step )
 
 <script>
 $(document).ready(function(){
-$(’.yourclass’).amail(’(at)’,'(dot)’);});
+$(".yourclass").amail("(at)","(dot)");});
 </script>
 
 if you use wordPress then
