@@ -17,7 +17,7 @@ $(".yourclass").amail("(at)","(dot)");});
 if you use wordPress then
 
 go to Apperance -> Editor -> header.php
-add the code before Ò</head>Ó
+add the code before "</head>"
 3) Use it
 
-add your email as <a title=Ómy emailÓ class=ÓyourclassÓ>You(at)domain(dot)com</a> it will be as normal link.
+add your email as <a title="my email" class="yourclass">You(at)domain(dot)com</a> it will be as normal link.
