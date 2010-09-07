@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>aMail jquary plugin of email protection.</title>
+	<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="jquery.amail.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){$('.yourclass').amail('(at)','(dot)');});
+	</script>
+</head>
+
+<body>
+<h1>aMail jquary plugin of email protection.</h1>
+<a class="yourclass" title="my email">Name(at)domain(dot)com</a>
+
+<h2>JavaScript</h2>
+<pre>
+	&lt;script type="text/javascript" src="jquery-1.3.2.min.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="jquery.amail.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript"&gt;
+		$(document).ready(function(){$('<b>.yourclass</b>').amail('<b>(at)</b>','<b>(dot)</b>');});
+	&lt;/script&gt;
+</pre>
+
+<h2>html</h2>
+<pre>
+	&lt;a class="<b>yourclass</b>" title="my email"&gt;Name<b>(at)</b>domain<b>(dot)</b>com&lt;/a&gt;
+</pre>
+
+<h2>result html</h2>
+<pre>
+	&lt;a class="yourclass" href="mailto:Name@domain.com" title="my email"&gt;my email&lt;/a&gt;
+</pre>
+
+The plugin replace "(at)" to "@" and replace "(dot)" to "." .
+You can make you own protection. you can change "(at)" and "(dot)". 
+
+<br />
+<hr />
+<br />
+<a href="http://ihackweb.com/wp-content/uploads/2009/05/jqueryamail.js">jquery plugin   source </a> | <a href="http://ihackweb.com/demo/jquery_amail/">demo. Try it now</a> | <a href="http://ihackweb.com/demo/jquery_amail/jquery_amail.zip">download demo</a> | <a href="http://ihackweb.com/archives/124">home page</a>
+</body>
+</html>
