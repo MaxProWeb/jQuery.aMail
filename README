@@ -1,5 +1,23 @@
-<h1>aMail is anti-spam jQuery plugin</h1>
+[b]aMail is anti-spam jQuery plugin[/b]
 This is a jQuery aMail plugin. 
 aMail is anti-spam system to protect any emails on your website.
 You can customize this protection and create your own anti-spam protection.
 
+
+Easy way ( 3 step )
+
+1) add jquery and amail plugin.
+2) add line in head of your page.
+
+<script>
+$(document).ready(function(){
+$(’.yourclass’).amail(’(at)’,'(dot)’);});
+</script>
+
+if you use wordPress then
+
+go to Apperance -> Editor -> header.php
+add the code before “</head>”
+3) Use it
+
+add your email as <a title=”my email” class=”yourclass”>You(at)domain(dot)com</a> it will be as normal link.
